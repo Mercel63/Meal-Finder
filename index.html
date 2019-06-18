@@ -12,19 +12,30 @@
                 <div class="col-3">
                     <form>
                         <div class="form-group">
-                            <input id="meal" type="text" class="form-control" placeholder="Name of meal" name="meal">
+                            <input id="meal" type="text" class="form-control" placeholder="Main ingredient">
                         </div>
                         <button id="searchMeal" type="button" class="btn btn-primary">submit</button>
                         <button id="randMeal" type="button" class="btn">random</button>
                     </form>
                 </div>
-                <div class="col-4">
-                    <div id="here" class="card thumb-post" style="height: 316;">
+                <div class="col-5">
+                    <div class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <a id="here" class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </center>
         </div>
     </body>
     <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
     <script src="js/main.js"></script>
 </html> 
