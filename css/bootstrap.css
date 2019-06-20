@@ -483,7 +483,7 @@ mark,
   height: auto;
 }
 
-.thumb-post img {
+.thumb-post {
   object-fit: cover; /* Do not scale the image */
   object-position: center; /* Center the image within the element */
   width: 100%;

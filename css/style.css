@@ -1,7 +1,59 @@
+body{
+    background: #cdcdcd;
+    font-family: 'Quicksand', sans-serif;
+}
+
 img {
     width: 20rem;
 }
 
+ul {
+    list-style: none;
+}
+
+/* h1 {
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+
+p {
+    color: white;
+} */
+
+.heading {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.form {
+    padding: 10px 15px;
+    background:  #F1C40F;
+    width: 432.5px;
+}
+
+.content-background{
+    background-color: white;
+}
+
+.caption-background {
+    background-color: black;
+    opacity: 0.7;
+}
+
 .card {
+    text-align: left;
+}
+
+.carousel-control-prev {
+    visibility: hidden;
+} 
+
+.carousel-control-next {
+    visibility: hidden;
+}
+
+#detailHere {
     text-align: left;
 }
